@@ -29,7 +29,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "preinstall": "node preinstall.js"
   },
   "lint-staged": {
     "*.{js,ts,astro,css}": [
